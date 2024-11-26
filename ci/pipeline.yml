@@ -538,7 +538,7 @@ jobs:
           GPG_ID: (( grab meta.gpg.id ))
           GPG_PUBLIC_KEY: (( grab meta.gpg.public_key ))
           GPG_PRIVATE_KEY: (( grab meta.gpg.private_key ))
-          FPM_FLAGS: --deb-recommends bosh-cli --deb-recommends safe --deb-recommends spruce --deb-recommends vault --deb-recommends git --deb-recommends perl
+          FPM_FLAGS: --deb-recommends jq --deb-recommends bosh-cli --deb-recommends safe --deb-recommends spruce --deb-recommends vault --deb-recommends git --deb-recommends perl
 
   - name: genesis-homebrew
     public: true
