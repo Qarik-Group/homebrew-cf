@@ -35,7 +35,7 @@ meta:
     private_key: (( param "Please provide GPG private key for signing packages" ))
 
   pivnet:
-    api-token: (( param "Please set api token for pivnet ))
+    api-token: (( param "Please set api token for pivnet" ))
 
 groups:
 - name: (( grab meta.name ))
